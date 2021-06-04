@@ -1,0 +1,212 @@
+
+.main{
+    display:none;
+    height: auto;
+    background-image: url('../img/imagen1.png'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.main--xs{
+   display:block;
+   background-color: $white;
+    height: 10rem;
+    background-image: url('../img/imagen1.png'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.main--lg{
+    display:none;
+    height: auto;
+    background-image: url('../img/imagen1.png'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@media (min-width: 768px){
+    .main{
+        display:none;
+        height: auto;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .main--xs{
+       display:block;
+       background-color: $white;
+        height: 20rem;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }    
+
+    .main--lg{
+        display:none;
+        height: auto;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+}
+
+@media (min-width: 992px){
+   
+    .main{
+        display:block;
+    }
+
+    .main--xs{
+    display:none;
+    background-color:$white;;
+    height: 10rem;
+    background-image: url('../img/imagen1.png'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+    }
+    .main--lg{
+        display:none;
+        height: auto;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+
+@media (min-width: 1024px){
+    .main{
+        display:none;
+        height: auto;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .main--xs{
+       display:block;
+       background-color: $white;
+        height: 20rem;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }    
+
+    .main--lg{
+        display:none;
+        height: auto;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+}
+@media (min-width: 1200px){
+   
+    .main{
+        display:none;
+    }
+
+    .main--xs{
+    display:none;
+    background-color:$white;;
+    height: 10rem;
+    background-image: url('../img/imagen1.png'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+    }
+    .main--lg{
+        display:block;
+        height: auto;
+        background-image: url('../img/imagen1.png'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+.we-us{
+    background-color:$white;
+    padding: 1rem 3rem;
+
+    p{
+        color: $quick-silver;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .we-us{
+        background-color:$white;
+        padding: 2rem 16rem 3rem 3rem;
+    
+        p{
+            color: $quick-silver;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .we-us{
+        background-color:$white;
+        padding: 2rem 3rem 5rem 3rem;
+    
+        p{
+            color: $quick-silver;
+            margin-bottom: 3rem;
+        }
+    } 
+}
+
+@media (min-width: 1200px) {
+    .we-us{
+        background-color:$white;
+        padding: 2rem 3rem 5rem 3rem;
+    
+        p{
+            color: $quick-silver;
+            margin-bottom: 3rem;
+        }
+    }   
+}
+
+
+/* Subcription */
+
+.subcribtion{
+    text-align: center;
+    color:$smoky-black;
+    background-color:$white;    
+    writing-mode: vertical-lr ;
+    padding: .5rem;
+}
+
+
